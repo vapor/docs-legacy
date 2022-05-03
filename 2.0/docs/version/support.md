@@ -31,7 +31,7 @@ When a new version of Vapor is released, the previous version will enter a maint
 
 ### Unstable
 
-The master branch is the latest development version of Vapor and is constantly changing. Before a new version of Vapor is released, there may be unstable alpha and beta phases in which you are welcome to test and provide feedback on the changes.
+The main branch is the latest development version of Vapor and is constantly changing. Before a new version of Vapor is released, there may be unstable alpha and beta phases in which you are welcome to test and provide feedback on the changes.
 
 ## Community
 

@@ -126,7 +126,7 @@ By default, this property will be [name](#name).
 
 ### ID Key
 
-The ID key is a writeable [key path](https://github.com/apple/swift-evolution/blob/master/proposals/0161-key-paths.md) that points to your model's unique identifier property.
+The ID key is a writeable [key path](https://github.com/apple/swift-evolution/blob/main/proposals/0161-key-paths.md) that points to your model's unique identifier property.
 
 Usually this will be a property named `id` (for some databases it is `_id`). However you can theoretically use any key you like.
 

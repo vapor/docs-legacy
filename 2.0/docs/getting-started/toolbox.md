@@ -68,5 +68,5 @@ The toolbox will build an absolute URL based on what you pass as the template op
 - `--template=web` clones `http://github.com/vapor/web-template`
 - `--template=user/repo` clones `http://github.com/user/repo`.
 - `--template=http://example.com/repo-path` clones the full url given.
-- `--branch=foo` can be used to specify a branch besides `master`.
+- `--branch=foo` can be used to specify a branch besides `main`.
 

@@ -191,6 +191,3 @@ menu:
                 3_0:
                     text: '3.0'
                     relativeUrl: switch/3_0.html
-                4_0:
-                    text: '4.0'
-                    relativeUrl: switch/4_0.html

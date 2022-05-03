@@ -100,7 +100,6 @@ pages:
     - '1.5': 'version/1_5.md'
     - '2.0': 'version/2_0.md'
     - '3.0': 'version/3_0.md'
-    - '4.0': 'version/4_0.md'
     - 'Support': 'version/support.md'
 
 markdown_extensions:
@@ -120,7 +119,7 @@ theme:
     logo: 'images/droplet-white.svg'
 
 repo_url: http://github.com/vapor/vapor
-edit_uri: https://github.com/vapor/documentation/edit/master/2.0/docs/
+edit_uri: https://github.com/vapor/docs-legacy/edit/main/2.0/docs/
 
 extra:
     logo: 'images/droplet-white.svg'

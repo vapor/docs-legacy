@@ -14,7 +14,6 @@ jobs:
       run: |
         composer global require couscous/couscous
         pip install -r requirements.txt
-        pip install couscous
     - name: Build the website
       run: |
         bash ./build.sh

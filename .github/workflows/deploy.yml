@@ -18,7 +18,7 @@ jobs:
         bash ./build.sh
     - name: Configure AWS credentials
       id: cred
-      uses: aws-actions/configure-aws-credentails@v1
+      uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.DOCS_DEPLOYER_AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.DOCS_DEPLOYER_AWS_SECRET_ACCESS_KEY }}

@@ -32,8 +32,8 @@ jobs:
         template: stack.yml
         no-fail-on-empty-changeset: "1"
         parameter-overrides: >-
-          DomainName=legacy.docs.vapor.codes
-          S3BucketName=vapor-docs-legacy-site
+          DomainName=legacy.docs.vapor.codes,
+          S3BucketName=vapor-docs-legacy-site,
           AcmCertificateArn=${{ secrets.CERTIFICATE_ARN }}
     - name: Deploy to S3 
       id: s3deploy
